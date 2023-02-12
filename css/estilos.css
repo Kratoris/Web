@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Se importa la fuente */
+@font-face {
+    font-family: OpenSans;
+    src: url(fuentes/OpenSans-Regular.ttf);
+}
+
+header {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    height: 70px;
+    position: fixed;
+}
+
+.ancho {
+    width: 80%;
+    height: 70px;
+    margin: auto;
+}
+
+.logo {
+    width: 30%;
+    height: 70px;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.logo p a {
+    color: floralwhite;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-family: OpenSans;
+}
+
+nav {
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: OpenSans;
+}
+
+nav ul li a:hover {
+    color: gray;
+}
